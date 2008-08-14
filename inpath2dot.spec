@@ -9,7 +9,7 @@ Source0:	http://cord.de/tools/news/%{name}.pl
 # Source0-md5:	cc81944660fcaf1d72447358ab7bfa71
 URL:		http://cord.de/tools/news/
 BuildRequires:	rpm-perlprov
-Suggests:	graphviz
+Requires:	graphviz
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
