@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Parses inpath-data to a format usuable by graphviz
 Name:		inpath2dot
 Version:	1.3
